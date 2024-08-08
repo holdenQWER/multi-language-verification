@@ -1,0 +1,158 @@
+Command: /home/holden/systemc_work/uvm_matlab/uvm_dpi/sim/./simv +UVM_TESTNAME=my_case0 +ntb_solver_array_size_warn=100000 +ntb_random_seed_automatic -sv_liblist ./bootstrap.file -l sim.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  May 17 00:21 2024
+NOTE: automatic random seed used: 2740969151
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_case0...
+*Verdi* Loading libsscore_vcs202303.so
+FSDB Dumper for VCS, Release Verdi_U-2023.03-SP1, Linux x86_64/64bit, 05/28/2023
+(C) 1996 - 2023 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'top_tb.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+[matlab_model] matlab lib initialize successful
+[matlab_model] height:125,width:201
+[matlab_model] before call RGB888_to_YCbCr444
+[matlab_model] after call RGB888_to_YCbCr444
+UVM_INFO ../tb/my_model.sv(55) @ 1110.00ns: uvm_test_top.env.mdl [my_model] call matlab gen new tr:
+---------------------------------------------------
+Name               Type            Size   Value    
+---------------------------------------------------
+uvm_sequence_item  my_transaction  -      @927     
+  frame_height     integral        32     'h7d     
+  frame_width      integral        32     'hc9     
+  dat1             da(integral)    25125  -        
+    [0]            integral        32     'hcd     
+    [1]            integral        32     'hc5     
+    [2]            integral        32     'h97     
+    [3]            integral        32     'ha5     
+    [4]            integral        32     'h68     
+    ...            ...             ...    ...      
+    [25120]        integral        32     'h4f     
+    [25121]        integral        32     'ha2     
+    [25122]        integral        32     'hc1     
+    [25123]        integral        32     'h8f     
+    [25124]        integral        32     'ha7     
+  dat2             da(integral)    25125  -        
+    [0]            integral        32     'h8e     
+    [1]            integral        32     'h81     
+    [2]            integral        32     'h78     
+    [3]            integral        32     'h8b     
+    [4]            integral        32     'ha5     
+    ...            ...             ...    ...      
+    [25120]        integral        32     'h5c     
+    [25121]        integral        32     'h2b     
+    [25122]        integral        32     'h63     
+    [25123]        integral        32     'h80     
+    [25124]        integral        32     'h43     
+  dat3             da(integral)    25125  -        
+    [0]            integral        32     'h86     
+    [1]            integral        32     'h44     
+    [2]            integral        32     'h6e     
+    [3]            integral        32     'h31     
+    [4]            integral        32     'hbd     
+    ...            ...             ...    ...      
+    [25120]        integral        32     'hde     
+    [25121]        integral        32     'hbd     
+    [25122]        integral        32     'ha4     
+    [25123]        integral        32     'h91     
+    [25124]        integral        32     'h91     
+  begin_time       time            64     1100.00ns
+---------------------------------------------------
+UVM_INFO ../tb/my_driver.sv(45) @ 2100.00ns: uvm_test_top.env.agt.drv [my_driver] begin to drive one frame
+UVM_INFO ../tb/my_driver.sv(59) @ 5052300.00ns: uvm_test_top.env.agt.drv [my_driver] end drive one frame
+[matlab_model] height:155,width:240
+[matlab_model] before call RGB888_to_YCbCr444
+[matlab_model] after call RGB888_to_YCbCr444
+UVM_INFO ../tb/my_model.sv(55) @ 5052310.00ns: uvm_test_top.env.mdl [my_model] call matlab gen new tr:
+------------------------------------------------------
+Name               Type            Size   Value       
+------------------------------------------------------
+uvm_sequence_item  my_transaction  -      @941        
+  frame_height     integral        32     'h9b        
+  frame_width      integral        32     'hf0        
+  dat1             da(integral)    37200  -           
+    [0]            integral        32     'h7d        
+    [1]            integral        32     'hd9        
+    [2]            integral        32     'h92        
+    [3]            integral        32     'hb8        
+    [4]            integral        32     'hda        
+    ...            ...             ...    ...         
+    [37195]        integral        32     'h24        
+    [37196]        integral        32     'h61        
+    [37197]        integral        32     'h8d        
+    [37198]        integral        32     'h68        
+    [37199]        integral        32     'h70        
+  dat2             da(integral)    37200  -           
+    [0]            integral        32     'h4c        
+    [1]            integral        32     'h7d        
+    [2]            integral        32     'h32        
+    [3]            integral        32     'h68        
+    [4]            integral        32     'h66        
+    ...            ...             ...    ...         
+    [37195]        integral        32     'h97        
+    [37196]        integral        32     'h70        
+    [37197]        integral        32     'h68        
+    [37198]        integral        32     'h88        
+    [37199]        integral        32     'hba        
+  dat3             da(integral)    37200  -           
+    [0]            integral        32     'hd2        
+    [1]            integral        32     'h73        
+    [2]            integral        32     'h92        
+    [3]            integral        32     'h8a        
+    [4]            integral        32     'h6f        
+    ...            ...             ...    ...         
+    [37195]        integral        32     'h7c        
+    [37196]        integral        32     'h66        
+    [37197]        integral        32     'h7f        
+    [37198]        integral        32     'h91        
+    [37199]        integral        32     'hd7        
+  begin_time       time            64     5052300.00ns
+------------------------------------------------------
+UVM_INFO ../tb/my_monitor.sv(57) @ 5052700.00ns: uvm_test_top.env.agt.mon [my_monitor] end collect one frame
+UVM_INFO ../tb/my_scoreboard.sv(58) @ 5052700.00ns: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO ../tb/my_driver.sv(45) @ 5053300.00ns: uvm_test_top.env.agt.drv [my_driver] begin to drive one frame
+UVM_INFO ../tb/my_driver.sv(59) @ 12524500.00ns: uvm_test_top.env.agt.drv [my_driver] end drive one frame
+UVM_INFO ../tb/my_monitor.sv(57) @ 12524900.00ns: uvm_test_top.env.agt.mon [my_monitor] end collect one frame
+UVM_INFO ../tb/my_scoreboard.sv(58) @ 12524900.00ns: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+TEST CASE PASSED
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   11
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[my_driver]     4
+[my_model]     2
+[my_monitor]     2
+[my_scoreboard]     2
+$finish called from file "/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time  12525500.00ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 12525500000 ps
+CPU Time:     30.010 seconds;       Data structure size:   0.6Mb
+Fri May 17 00:21:37 2024
