@@ -1,0 +1,190 @@
+Command: /home/holden/systemc_work/uvm_matlab/uvm_ml/sim/./simv +UVM_TESTNAME=my_case0 +ntb_solver_array_size_warn=100000 +ntb_random_seed_automatic -sv_liblist ./bootstrap.file -l sim.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  May 21 20:44 2024
+NOTE: automatic random seed used: 3654347281
+----------------------------------------------------------------
+ML-OA-UVM-1.1d
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+*Verdi* Loading libsscore_vcs202303.so
+FSDB Dumper for VCS, Release Verdi_U-2023.03-SP1, Linux x86_64/64bit, 05/28/2023
+(C) 1996 - 2023 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'top_tb.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'req_stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'req_stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'rsp_stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* WARNING: Var 'stream' will be ignored because its size is larger than 2M.
+*Verdi* : End of traversing.
+UVM_INFO @ 0.00ns: reporter [RNTST] Running test SV:my_case0 set by +UVM_TESTNAME...
+UVM-ML BP WARNING >> BpInterconnect::Elaborate() - Runtime phases are now blocking by default.
+
+[SC] 0 s: sctop::sctop name=uvm_test_top.env.sctop
+[SC] 0 s: sctop::build
+[SC] 0 s: ref_model::build
+[SC] 0 s: sctop::before_end_of_elaboration
+[SC] 0 s: sctop::connect
+[SC] 0 s: sctop::end_of_elaboration
+[SC] 0 s: sctop::start_of_simulation
+[SC] 1100 ns: ref_model::before call matlab
+[matlab_model] matlab lib initialize successful
+[matlab_model] height:190,width:211
+[matlab_model] before call RGB888_to_YCbCr444
+[matlab_model] after call RGB888_to_YCbCr444
+[SC] 1100 ns: ref_model::after call matlab
+[SC] 1100 ns: ref_model::after send out transaction
+UVM_INFO ../tb/my_model.sv(56) @ 1100.00ns: uvm_test_top.env.mdl [my_model] get sc_tr from sc model:
+-----------------------------------------------
+Name               Type            Size   Value
+-----------------------------------------------
+uvm_sequence_item  my_transaction  -      @1025
+  frame_height     integral        32     'h0  
+  frame_width      integral        32     'h0  
+  dat1             da(integral)    40090  -    
+    [0]            integral        32     'h3f 
+    [1]            integral        32     'h91 
+    [2]            integral        32     'h54 
+    [3]            integral        32     'h85 
+    [4]            integral        32     'h76 
+    ...            ...             ...    ...  
+    [40085]        integral        32     'hca 
+    [40086]        integral        32     'ha5 
+    [40087]        integral        32     'hbb 
+    [40088]        integral        32     'h8c 
+    [40089]        integral        32     'h17 
+  dat2             da(integral)    40090  -    
+    [0]            integral        32     'h95 
+    [1]            integral        32     'hac 
+    [2]            integral        32     'h95 
+    [3]            integral        32     'h8c 
+    [4]            integral        32     'h95 
+    ...            ...             ...    ...  
+    [40085]        integral        32     'h6c 
+    [40086]        integral        32     'h47 
+    [40087]        integral        32     'h9f 
+    [40088]        integral        32     'ha8 
+    [40089]        integral        32     'h8c 
+  dat3             da(integral)    40090  -    
+    [0]            integral        32     'h76 
+    [1]            integral        32     'h51 
+    [2]            integral        32     'hd3 
+    [3]            integral        32     'h67 
+    [4]            integral        32     'hc9 
+    ...            ...             ...    ...  
+    [40085]        integral        32     'ha4 
+    [40086]        integral        32     'h71 
+    [40087]        integral        32     'h57 
+    [40088]        integral        32     'h33 
+    [40089]        integral        32     'h70 
+-----------------------------------------------
+UVM_INFO ../tb/my_driver.sv(45) @ 2100.00ns: uvm_test_top.env.agt.drv [my_driver] begin to drive one frame
+UVM_INFO ../tb/my_driver.sv(59) @ 8058300.00ns: uvm_test_top.env.agt.drv [my_driver] end drive one frame
+[SC] 8058300 ns: ref_model::before call matlab
+[matlab_model] matlab lib initialize successful
+[matlab_model] height:163,width:252
+[matlab_model] before call RGB888_to_YCbCr444
+[matlab_model] after call RGB888_to_YCbCr444
+[SC] 8058300 ns: ref_model::after call matlab
+[SC] 8058300 ns: ref_model::after send out transaction
+UVM_INFO ../tb/my_model.sv(56) @ 8058300.00ns: uvm_test_top.env.mdl [my_model] get sc_tr from sc model:
+-----------------------------------------------
+Name               Type            Size   Value
+-----------------------------------------------
+uvm_sequence_item  my_transaction  -      @1043
+  frame_height     integral        32     'h0  
+  frame_width      integral        32     'h0  
+  dat1             da(integral)    41076  -    
+    [0]            integral        32     'h5d 
+    [1]            integral        32     'h50 
+    [2]            integral        32     'h6a 
+    [3]            integral        32     'h80 
+    [4]            integral        32     'h90 
+    ...            ...             ...    ...  
+    [41071]        integral        32     'h3e 
+    [41072]        integral        32     'hd5 
+    [41073]        integral        32     'hb9 
+    [41074]        integral        32     'h47 
+    [41075]        integral        32     'h7b 
+  dat2             da(integral)    41076  -    
+    [0]            integral        32     'h93 
+    [1]            integral        32     'h7e 
+    [2]            integral        32     'h5b 
+    [3]            integral        32     'h9b 
+    [4]            integral        32     'h3a 
+    ...            ...             ...    ...  
+    [41071]        integral        32     'h91 
+    [41072]        integral        32     'hf  
+    [41073]        integral        32     'h6e 
+    [41074]        integral        32     'h6a 
+    [41075]        integral        32     'h67 
+  dat3             da(integral)    41076  -    
+    [0]            integral        32     'hdd 
+    [1]            integral        32     'h9a 
+    [2]            integral        32     'hd4 
+    [3]            integral        32     'h6b 
+    [4]            integral        32     'h54 
+    ...            ...             ...    ...  
+    [41071]        integral        32     'hb5 
+    [41072]        integral        32     'h93 
+    [41073]        integral        32     'h31 
+    [41074]        integral        32     'h75 
+    [41075]        integral        32     'h9d 
+-----------------------------------------------
+UVM_INFO ../tb/my_monitor.sv(57) @ 8058700.00ns: uvm_test_top.env.agt.mon [my_monitor] end collect one frame
+UVM_INFO ../tb/my_scoreboard.sv(58) @ 8058700.00ns: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO ../tb/my_driver.sv(45) @ 8059300.00ns: uvm_test_top.env.agt.drv [my_driver] begin to drive one frame
+UVM_INFO ../tb/my_driver.sv(59) @ 16307300.00ns: uvm_test_top.env.agt.drv [my_driver] end drive one frame
+UVM_INFO ../tb/my_monitor.sv(57) @ 16307700.00ns: uvm_test_top.env.agt.mon [my_monitor] end collect one frame
+UVM_INFO ../tb/my_scoreboard.sv(58) @ 16307700.00ns: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+TEST CASE PASSED
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   11
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[my_driver]     4
+[my_model]     2
+[my_monitor]     2
+[my_scoreboard]     2
+$finish called from file "/home/holden/systemc_work/lib/UVM_ML-1.13.0/ml/frameworks/uvm/sv/1.1d-ml/src/base/uvm_root.svh", line 1033.
+$finish at simulation time  16308300.00ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 16308300000 ps
+CPU Time:     44.730 seconds;       Data structure size:  77.8Mb
+Tue May 21 20:44:47 2024

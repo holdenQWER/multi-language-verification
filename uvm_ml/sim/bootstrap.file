@@ -1,0 +1,4 @@
+#!SV_LIBRARIES
+/home/holden/systemc_work/lib/UVM_ML-1.13.0/ml/libs/uvm_sv/9.2/64bit/libuvm_sv_ml
+/home/holden/systemc_work/lib/UVM_ML-1.13.0/ml/libs/backplane/9.2/64bit/libuvm_ml_bp
+../matlab/libsctop
