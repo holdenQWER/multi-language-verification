@@ -1,0 +1,106 @@
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include /home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc -l comp_sc.log ./srs.cpp
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' '/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp' '/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc' -l 'comp_sc.log' './srs.cpp'
+In file included from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./srs.cpp:7:
+/home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./../model/trans.h:10:10: fatal error: boost/shared_ptr.hpp: No such file or directory
+   10 | #include <boost/shared_ptr.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [srs.o] Error 1
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 /home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc -l comp_sc.log ./srs.cpp
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' '/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp' '/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc' -l 'comp_sc.log' './srs.cpp'
+In file included from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/prefix.hpp:13,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/args.hpp:8,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python.hpp:11,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./../model/trans.h:12,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./srs.cpp:7:
+/home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/wrap_python.hpp:57:11: fatal error: pyconfig.h: No such file or directory
+   57 | # include <pyconfig.h>
+      |           ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [srs.o] Error 1
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m /home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc -l comp_sc.log ./srs.cpp
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' '/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp' '/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc' -l 'comp_sc.log' './srs.cpp'
+In file included from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_xxx.hpp:8,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_auto_ptr.hpp:9,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/value_arg.hpp:7,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/object/forward.hpp:10,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/object/pointer_holder.hpp:16,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/to_python_indirect.hpp:10,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/converter/arg_to_python.hpp:10,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/call.hpp:15,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/object_core.hpp:14,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/args.hpp:22,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python.hpp:11,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./../model/trans.h:12,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./srs.cpp:7:
+/home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_auto_ptr.hpp:17:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+   17 | BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+      |                                        ^~~~~~~~
+/home/holden/systemc_work/lib/boost_1_72_0/boost/detail/is_xxx.hpp:20:4: note: in definition of macro ‘BOOST_DETAIL_IS_XXX_DEF’
+   20 |    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+      |    ^~~~~~~~~~~~~~
+/home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro ‘BOOST_PYTHON_IS_XXX_DEF’
+   17 | BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/gnu/linux/gcc-9.2.0_64-shared/include/c++/9.2.0/memory:80,
+                 from /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/systemc_.h:51,
+                 from /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/systemc.h:2,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./srs.cpp:1:
+/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/gnu/linux/gcc-9.2.0_64-shared/include/c++/9.2.0/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m /home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp -l comp_sc.log
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' '/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp' -l 'comp_sc.log'
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc -l comp_sc.log
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' '/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc' -l 'comp_sc.log'
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m ./srs.cpp -l comp_sc.log
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' './srs.cpp' -l 'comp_sc.log'
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m /home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc -l comp_sc.log ./srs.cpp
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' '/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp' '/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc' -l 'comp_sc.log' './srs.cpp'
+In file included from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_xxx.hpp:8,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_auto_ptr.hpp:9,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/value_arg.hpp:7,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/object/forward.hpp:10,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/object/pointer_holder.hpp:16,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/to_python_indirect.hpp:10,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/converter/arg_to_python.hpp:10,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/call.hpp:15,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/object_core.hpp:14,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python/args.hpp:22,
+                 from /home/holden/systemc_work/lib/boost_1_72_0/boost/python.hpp:11,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./../model/trans.h:12,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./srs.cpp:7:
+/home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_auto_ptr.hpp:17:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+   17 | BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+      |                                        ^~~~~~~~
+/home/holden/systemc_work/lib/boost_1_72_0/boost/detail/is_xxx.hpp:20:4: note: in definition of macro ‘BOOST_DETAIL_IS_XXX_DEF’
+   20 |    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+      |    ^~~~~~~~~~~~~~
+/home/holden/systemc_work/lib/boost_1_72_0/boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro ‘BOOST_PYTHON_IS_XXX_DEF’
+   17 | BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/gnu/linux/gcc-9.2.0_64-shared/include/c++/9.2.0/memory:80,
+                 from /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/systemc_.h:51,
+                 from /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/systemc.h:2,
+                 from /home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/./srs.cpp:1:
+/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/gnu/linux/gcc-9.2.0_64-shared/include/c++/9.2.0/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m /home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp -l comp_sc.log
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' '/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc/uvmc.cpp' -l 'comp_sc.log'
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc -l comp_sc.log
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' '/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/dpi/uvm_dpi.cc' -l 'comp_sc.log'
+## syscan command line arguments:  -full64 -kdb -cpp g++ -cc gcc -tlm2 -cflags -g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils -cflags -I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc -cflags -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include -cflags -I/home/holden/systemc_work/lib/boost_1_72_0 -cflags -I/usr/local/python3/include/python3.7m ./srs.cpp -l comp_sc.log
+## syscan command line
+syscan  -full64 -kdb -cpp 'g++' -cc 'gcc' -tlm2 '-cflags' -cflags '-g -DVCS -I. -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include/systemc233/tlm_utils' -cflags '-I/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sc' -cflags '-I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include' -cflags '-I/home/holden/systemc_work/lib/boost_1_72_0' -cflags '-I/usr/local/python3/include/python3.7m' './srs.cpp' -l 'comp_sc.log'

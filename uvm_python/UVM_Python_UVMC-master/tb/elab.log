@@ -1,0 +1,40 @@
+Command: vcs -full64 -cpp g++ -ld g++ -kdb -debug_access+all -CFLAGS -O0 -g  -LDFLAGS -O0 -g -Wl,-rpath=/usr/local/python3/lib -Wl,-rpath=/home/holden/systemc_work/lib/boost_1_72_0/stage/lib -q -sysc=deltasync -lca /home/holden/systemc_work/lib/boost_1_72_0/stage/lib/libboost_python37.so /home/holden/systemc_work/lib/boost_1_72_0/stage/lib/libboost_system.so /usr/local/python3/lib/libpython3.7m.so -l elab.log -sysc -timescale=1ns/1ps top sc_main
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+Doing common elaboration 
+
+1 module and 0 UDP read.
+make[1]: Entering directory `/home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/csrc' \
+
+../simv_elab up to date
+make[1]: Leaving directory `/home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/csrc' \
+
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Info: SystemC: Python: loaded function adder from file ../model/adder.py
+Connecting an SC-side proxy chan for 'refmod_i.in' with lookup string 'refmod_i.in' for later connection with SV
+Connecting an SC-side proxy chan for 'refmod_i.out' with lookup string 'refmod_i.out' for later connection with SV
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  May 15 15:42 2024
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+Doing common elaboration 
+Notice: Ports coerced to inout, use -notice for details
+
+12 modules and 0 UDP read.
+make[1]: Entering directory `/home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/csrc' \
+
+gcc  -w  -pipe -g -I/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/include   -fPIC \
+-fPIC -c -o uM9F1_0x2aB.o uM9F1_0x2aB.c
+../simv up to date
+make[1]: Leaving directory `/home/holden/systemc_work/uvm_python/UVM_Python_UVMC-master/tb/csrc' \
+

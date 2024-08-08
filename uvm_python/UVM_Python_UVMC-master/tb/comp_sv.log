@@ -1,0 +1,15 @@
+Command: vlogan -full64 -kdb -q -sverilog +incdir+/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src \
++incdir+/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sv /home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/uvm_pkg.sv \
+/home/holden/systemc_work/lib/uvmc/uvmc-2.3.2/src/connect/sv/uvmc_pkg.sv -timescale=1ns/1ps \
++define+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR -l comp_sv.log +incdir+../rtl/ ./input_if.sv \
+./output_if.sv ../rtl/adder.sv ./my_pkg.sv ./top.sv
+
+Warning-[PII] Package importing itself
+/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/vcs/vcs_uvm_alt.sv, 14
+  Package importing itself has no effect. Package 'uvm_pkg' is importing 
+  itself.
+  Package is defined at 
+  "/home/holden/Tool/synopsys/vcs/vcs/U-2023.03-SP1/etc/uvm-1.1/src/uvm_pkg.sv",
+  27
+  Ignoring this import statement and continuing.
+
